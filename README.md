@@ -33,13 +33,11 @@ checks, classifying results as Pass, Warning, or Fail.
 │   ├── run_highdim.py              High-dimensional validation
 │   ├── run_wot_comparison.py       Waddington-OT comparison
 │   ├── generate_figures.py         Publication figure generation
-│   ├── generate_marker_figure.py   Pancreas marker figure
-│   └── check_results.py            Verify all paper claims
+│   └── generate_marker_figure.py   Pancreas marker figure
 ├── tools/                          Utilities
 │   ├── download_chu.py             Download Chu 2016 data
 │   └── download_gastrulation.py    Download gastrulation data
 ├── data/                           Input data (gitignored, see data/README.md)
-├── results/                        Output files (gitignored)
 ├── requirements.txt                Python dependencies
 └── .gitignore
 ```
